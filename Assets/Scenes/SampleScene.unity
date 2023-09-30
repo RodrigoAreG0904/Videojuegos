@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17427835, g: 0.17427835, b: 0.17427835, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -67,9 +67,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -646,7 +643,7 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8973648005499903946, guid: d1aafb5d88167f64ba0cde95ffe67a4a, type: 3}
-      propertyPath: obstacleOrSoul.Array.data[4]
+      propertyPath: 'obstacleOrSoul.Array.data[4]'
       value: 
       objectReference: {fileID: 646694070991802335, guid: a802a97b3755e4e4fb3961d3c0750e76, type: 3}
     m_RemovedComponents: []
